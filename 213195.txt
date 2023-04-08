@@ -1,0 +1,114 @@
+echo "# SI_2023_lab1_213195" >> README.md
+git init
+Initialized empty Git repository in C:/Matej/Faks/2 GOD/Si/lab1/.git/
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/MatejGadjo/SI_2023_lab1_213195.git
+git push -u origin master
+
+- Со овие команди креираме remote репозиториум, а потоа и локален репозиторуим и соодветно ги поврзуваме локалниот со remote repo
+====================================
+git add README.md
+git commit -m "Inital commit"
+
+- Со овие две команди додаваме README file и правиме commit со пораката Inital commit
+====================================
+git add SILab1.java
+git commit -m "Add java class"
+
+- Со овие две команди додаваме file SILab1.java и правиме commit со пораката Add java class
+===================================
+git push origin master
+
+- Правам push за соодветно java фајлот и readme фајлот да се поставени на remote репозиторуимот
+====================================
+git branch bug1
+git branch bug2
+git branch bug3
+
+- Отравраме 3 нови гранки со соодветните имиња
+====================================
+git checkout bug1
+
+- Се префрлуваме на гранката bug1
+====================================
+git commit -am "Fix wrong loop for reading"
+
+- Откако го променивме кодот каде имаше грешка направив commit со соодветна порака и исто така -am е направено за git да го додате фалјот одма во stage mode
+====================================
+git checkout bug2
+
+- Се префрлуваме на гранката bug2
+====================================
+git commit -am "Fix wrong condition in filterOddNumbers"
+
+- Откако го променивме кодот каде имаше грешка направив commit со соодветна порака и исто така -am е направено за git да го додате фалјот одма во stage mode
+====================================
+git checkout bug3
+
+- Се префрлуваме на гранката bug3
+====================================
+git commit -am "Fix method sumEvenNumbers"
+
+- Откако го променивме кодот каде имаше грешка направив commit со соодветна порака и исто така -am е направено за git да го додате фалјот одма во stage mode
+====================================
+git checkout master
+
+- Се префрлуваме на гранката master
+====================================
+git add 213195.txt
+git commit -m "документација"
+git push origin master
+
+
+- Го додадов соодветниот фајл со commit порака документација и го синхронизирав со remote repo
+====================================
+git push -u origin bug1
+git push -u origin bug2
+git push -u origin bug3
+
+- Ги синхронизирав сите гранки со оддалечениот репозиториум
+====================================
+git merge bug1
+
+Fast-forward
+ SILab1.java | 2 +-
+
+- Ја споив гранката bug1 со master, нема конфликт, се користи fast-forward
+====================================
+git push origin master
+
+- Ги синхронизирав последните промени, т.е bug1 merge so master
+====================================
+git merge bug2
+
+Auto-merging SILab1.java
+Merge made by the 'ort' strategy.
+ SILab1.java | 10 +++++-----
+
+- Ја споив гранката bug2 со master, нема конфликти, се користи auto-merging, ort strategy
+====================================
+git push origin master
+
+- Ги синхронизирав последните промени, т.е bug2 merge so master
+====================================
+git checkout bug3
+
+- Се префрлуваме на гранката bug3
+====================================
+git rebase master
+
+- Правиме rebase спрема master
+====================================
+git merge bug3
+
+Fast-forward
+ SILab1.java | 10 +++++-----
+
+- Ја споив гранката bug2 со master, нема конфликти, се користи Fast-forward
+====================================
+git push origin master
+
+- Ги синхронизирав последните промени, т.е bug3 merge so master
+====================================

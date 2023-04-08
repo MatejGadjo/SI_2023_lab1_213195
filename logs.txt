@@ -1,0 +1,39 @@
+commit 68ed8b0f76371aeadae67ffd7f2df06e81601fb8 (HEAD -> master, origin/master, bug3)
+Author: MatejGadjo <m.gadzovski@gmail.com>
+Date:   Sat Apr 8 11:45:05 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit ed6650b03511229519f12fdb0b312f5a702a5d15
+Merge: 9c1ba36 101fe1d
+Author: MatejGadjo <m.gadzovski@gmail.com>
+Date:   Sat Apr 8 12:08:59 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 9c1ba36b711436e51474077e36ab22528ac05b35
+Author: MatejGadjo <m.gadzovski@gmail.com>
+Date:   Sat Apr 8 12:05:55 2023 +0200
+
+    документација
+
+commit 101fe1d7e41726bbf2c082b64ea47b1b2f15feab (origin/bug2, bug2)
+Author: MatejGadjo <m.gadzovski@gmail.com>
+Date:   Sat Apr 8 11:42:46 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit d32822f0f19ab68304ef1ea91ae8d0828d42371a (origin/bug1, bug1)
+Author: MatejGadjo <m.gadzovski@gmail.com>
+Date:   Sat Apr 8 11:36:42 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 66305d18413fd5615467b7af73ce15a41db927b8
+Author: MatejGadjo <m.gadzovski@gmail.com>
+Date:   Sat Apr 8 11:11:16 2023 +0200
+
+    Add java class
+
+commit 0bb8f2a255fd136bd83b8bdef2d15c74b588908d
+Author: MatejGadjo <m.gadzovski@gmail.com>
