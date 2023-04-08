@@ -112,3 +112,12 @@ git push origin master
 
 - Ги синхронизирав последните промени, т.е bug3 merge so master
 ====================================
+git log
+
+- Да добијам информација за сите логови
+====================================
+git add logs.txt 213195.txt
+git commit -m "Final commit"
+git push origin master
+
+- Ги додаваме последните 2 фајлови, правиме commit и синхронизација со master
